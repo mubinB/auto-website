@@ -1,0 +1,88 @@
+body {
+    background-color: #f7f7f7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+/* Navigation */
+
+#navigation {
+    background-color: #d92027;
+}
+
+
+/* Products */
+.product-header {
+    padding-bottom: 2%;
+}
+
+#products {
+    text-align: center;
+    padding: 3%;
+    
+}
+
+
+.product-card {
+    display: block;
+    padding: 4% 1%;
+}
+
+.product-image {
+    height: 80px;
+    width: 100px;
+}
+
+/* USPs */
+#usps {
+    text-align: center;
+}
+
+
+/* Brands */
+
+#brands {
+    text-align: center;
+}
+
+#brands .outer-card {
+    margin: 3% 7%;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.main {
+    font-family:Arial;
+    width:  98%;
+    display:block;
+    margin:0 auto;
+    text-align: center;
+}
+
+.slick-slide img {
+    display: inline-block !important;
+}
+
+.slider .card {
+    height: 200px;
+    padding: 50px;
+    margin: 0 20px;
+}
+
+.contact-card {
+    width: 45%;
+    position: relative;
+    display: inline-block;
+    margin: 0 30px;
+    padding: 1%;
+}

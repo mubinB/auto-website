@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Super Motors&#8482; Auto Consultant</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="thirdparty/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="thirdparty/slick-1.8.1/slick/slick-theme.css"/>
+
+    
+
+</head>
+<body onload="fnOnload()">
+
+    <!-- Script to hide contextmenu on Image tags -->
+    <script> 
+        function fnOnload() { 
+            document.addEventListener("contextmenu",                          
+                function(e) { 
+                    if (e.target.nodeName === "IMG") { 
+                        e.preventDefault(); 
+                    } 
+                }, false); 
+            }          
+    </script> 
+
+    <section id="navigation" class="sticky-top">
+        <div class="container-fluid">
+            <nav class="navbar navbar-dark navbar-expand-lg ">
+                <a class="navbar-brand" href="#">Supre Motors&#8482;</a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"> <a class="nav-link" href=""> Sell Your Vehicle </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href=""> About </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#contact"> Contact </a> </li>
+                </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+
+    <section id="products">
+
+        <h2 class="product-header">Buy your perfect vehicle</h2>
+
+        <div class="row">
+            
+            <div class="col-md-4 product-div"> 
+                <div class="card product-card">
+                    <img class="product-image" src="images/png/001-scooter.png" alt="scooter-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Scooters</h3>
+                        <p class="card-text">Small engines but comfortable experience.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 product-div"> 
+                <div class="card product-card">        
+                    <img class="product-image" src="images/png/003-motorcycle.png" alt="motorcycle-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Motorcycles</h3>
+                        <p class="card-text">Powerful engines for the longer distances.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 product-div"> 
+                <div class="card product-card">  
+                    <img class="product-image" src="images/png/002-car.png" alt="car-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Cars</h3>
+                        <p class="card-text">Perfect for taking your family for a ride.</p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="usps">
+
+        <h2>#1 Showroom for Used Vehicles all over District </h2>
+        <div class="row">
+
+            <div class="col-md-4"> 
+                <div class="card"> 
+                    <div class="card-body">
+                        <h3 class="card-title"> Verified Vehicles </h3>
+                        <img class="" src="images/png/usp-verified.png" alt="verified-img">
+                        <p class="card-subtitle"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat velit scelerisque in dictum non consectetur. Dui id ornare arcu odio ut sem nulla. Neque vitae tempus quam pellentesque nec nam.</p>
+                    </div>    
+                </div>
+            </div>       
+                  
+            <div class="col-md-4"> 
+                <div class="card"> 
+                    <div class="card-body">
+                        <h3 class="card-title"> Customer Satisfaction </h3>
+                        <img class="" src="images/png/usp-csat.png" alt="csat-img">
+                        <p class="card-subtitle"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat velit scelerisque in dictum non consectetur. Dui id ornare arcu odio ut sem nulla. Neque vitae tempus quam pellentesque nec nam.</p>
+                    </div>    
+                </div>
+            </div>  
+
+            <div class="col-md-4"> 
+                <div class="card"> 
+                    <div class="card-body">
+                        <h3> Complete Buy-back Support </h3>
+                        <img class="" src="images/png/usp-support.png" alt="support-img">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat velit scelerisque in dictum non consectetur. Dui id ornare arcu odio ut sem nulla. Neque vitae tempus quam pellentesque nec nam.</p>
+                    </div>    
+                </div>
+            </div>              
+
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="brands">
+        <h2>Brands We Provide</h2>
+
+        <div class="card outer-card">
+            <h4 class="card-title">Scooters & Motorcycles</h4>
+            <div class="card-body main">
+                    <div class="slider slider-nav">
+                        <div class="card">
+                            <img src="images/bikes/logo_hero.png" alt=""><h4>Hero</h4>
+                        </div>
+                        <div class="card">
+                            <img src="images/bikes/logo_honda.png" alt=""><h4>Honda</h4>
+                        </div>
+                        <div class="card">
+                            <img src="images/bikes/ktm_logo.png" alt=""><h4>KTM</h4>
+                        </div>
+                        <div class="card">
+                            <img src="images/bikes/logo_royal_enfield.png" alt=""><h4>Royal Enfield</h4>
+                        </div>
+                        <div class="card">
+                            <img src="images/bikes/logo_suzuki.png" alt=""><h4>Suzuki</h4>
+                        </div>
+
+                        <div class="card">
+                            <img src="images/bikes/logo_tvs.png" alt=""><h4>TVS</h4>
+                        </div>
+                        <div class="card">
+                            <img src="images/bikes/logo_bajaj.png" alt=""><h4>Bajaj</h4>
+                        </div>
+                    </div>
+            </div>
+        </div> 
+        
+        <div class="card outer-card">
+            <h4 class="card-title">Cars</h4>
+            <div class="card-body main">
+                    <div class="slider slider-nav">
+                        <div class="card">
+                            <img src="images/cars/ford_car_logo.png" alt=""><h4>Ford</h4>
+                        </div>
+                        <div class="card">
+                            <img src="images/cars/toyota_car_logo.png" alt=""><h4>Toyota</h4>
+                        </div>
+                        <div class="card">
+                            <img src="images/cars/honda_car_logo.png" alt=""><h4>Honda</h4>
+                        </div>
+
+                        <div class="card">
+                            <img src="images/cars/mahindra_car_logo.png" alt=""><h4>Mahindra</h4>
+                        </div>
+                        <div class="card">
+                            <img src="images/cars/tata_car_logo.png" alt=""><h4>Tata</h4>
+                        </div>
+                        <div class="card">
+                            <img src="images/cars/volkswagen_car_logo.png" alt=""><h4>Volkswagen</h4>
+                        </div>
+                    </div>
+            </div>
+        </div> 
+
+    </section>
+
+    <hr>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <div class="card">
+            <div class="card-body">
+                <div class="card contact-card">
+                    <h5 class="card-title"> Two wheeler Showroom address: </h5>
+                    <div class="card-body">
+                        803, 8th Floor, Lodha Supremus, Opp.MTNL Office, Off JVLR, Saki Vihar Road, Tunga Village, Mumbai - 400 072, Maharashtra.
+                    </div>
+                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d950.2946212321677!2d73.99097712915774!3d17.68902657694081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc239a7b43cc011%3A0xc29d7668249fd7c6!2sSuper%20auto%20used%20bike%20dealer!5e0!3m2!1sen!2sin!4v1590290050498!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+                </div>
+                <div class="card contact-card">
+                    <h5 class="card-title"> Car Showroom address:  </h5>
+                    <div class="card-body">
+                        803, 8th Floor, Lodha Supremus, Opp.MTNL Office, Off JVLR, Saki Vihar Road, Tunga Village, Mumbai - 400 072, Maharashtra.
+                    </div>
+                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1900.5553281774799!2d73.99019863107335!3d17.69223199006513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc239a24ee7e6a1%3A0x605c03551342044a!2sCity%20Car%20Bazar!5e0!3m2!1sen!2sin!4v1590289958081!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <footer id="footer">
+        <p>Copyright © Mubin Bagwan</p>
+    </footer>
+
+
+    <script type="text/javascript" src="thirdparty/slick-1.8.1/slick/slick.min.js"></script>
+          
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider-nav').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                dots: false,
+                arrows: true,
+                focusOnSelect: true,
+                mobileFirst: true,
+                // the magic
+                responsive: [{
+
+                    breakpoint: 1024,
+                    settings: {
+                    slidesToShow: 4,
+                    infinite: true
+                    }
+
+                    }, {
+
+                    breakpoint: 600,
+                    settings: {
+                    slidesToShow: 2,
+                    dots: true
+                    }
+
+                    }, {
+
+                    breakpoint: 300,
+                    settings: {
+                    slidesToShow: 2,
+                    dots: true
+                    }
+
+                }]
+            });
+        });
+    </script>
+</body> 
+</html>

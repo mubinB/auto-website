@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    text-align:  center;
     background-color: #f7f7f7;
 }
 
@@ -6,8 +8,17 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
 }
 
+hr {
+    display: inline-block;
+    width: 10%;
+    border-style: dotted none none none;
+    border-width: 7px;
+    border-color: darkgray; 
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
 .row {
@@ -24,6 +35,7 @@ p {
 /* Products */
 .product-header {
     padding-bottom: 2%;
+    color: #d92027;
 }
 
 #products {
@@ -32,10 +44,13 @@ p {
     
 }
 
-
 .product-card {
     display: block;
     padding: 4% 1%;
+}
+
+.card {
+    margin: 0.75rem 0;
 }
 
 .product-image {
@@ -44,21 +59,25 @@ p {
 }
 
 /* USPs */
-#usps {
-    text-align: center;
+
+.usp-header {
+    padding: 1%;
+    color: #d92027;
 }
 
-
 /* Brands */
-
 #brands {
     text-align: center;
 }
 
 #brands .outer-card {
     margin: 3% 7%;
-    background-color: cadetblue;
+    background-color: #eae3e3a6;
     text-align: center;
+}
+
+.brand-header {
+    color: #d92027;
 }
 
 .main {
@@ -79,10 +98,28 @@ p {
     margin: 0 20px;
 }
 
+/* Contact */
+
+.contact-header {
+    color: #d92027;
+}
+
+#contact {
+    padding-top: 56px;
+}
+
 .contact-card {
-    width: 45%;
-    position: relative;
-    display: inline-block;
-    margin: 0 30px;
-    padding: 1%;
+    background-color: #eae3e3a6;
+}
+
+.card-title {
+    margin: .75rem;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #232931; 
+    color: #fff;
+    padding: 10px;
 }

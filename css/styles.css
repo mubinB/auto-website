@@ -2,6 +2,7 @@ body {
     margin: 0;
     text-align:  center;
     background-color: #f7f7f7;
+    color: #232931;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,7 +47,6 @@ p {
 
 .product-card {
     display: block;
-    padding: 4% 1%;
 }
 
 .card {
@@ -56,6 +56,7 @@ p {
 .product-image {
     height: 80px;
     width: 100px;
+    margin-top: 10px;
 }
 
 /* USPs */
@@ -63,6 +64,10 @@ p {
 .usp-header {
     padding: 1%;
     color: #d92027;
+}
+
+#usps img {
+    margin-bottom: 20px;
 }
 
 /* Brands */
@@ -116,10 +121,26 @@ p {
     margin: .75rem;
 }
 
+.card-body {
+    padding: 0.25rem  1.25rem 0.5rem;
+}
+
 /* Footer */
 
 #footer {
     background-color: #232931; 
     color: #fff;
     padding: 10px;
+}
+
+.map-dimensions {
+    height: 450px;
+    width: 600px;
+}
+
+@media (max-width: 1200px) {
+    .map-dimensions {
+        height: 300px;
+        width: 300px;
+    }
 }

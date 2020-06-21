@@ -36,6 +36,7 @@ p {
 /* Navigation */
 
 #navigation {
+    padding: 2%;
     background-color: #fa813b;
     font-size: 3rem;
 }

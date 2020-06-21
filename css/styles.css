@@ -17,6 +17,13 @@ hr {
     border-color: darkgray; 
 }
 
+a {
+    color: rgb(85, 121, 85);
+}
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -29,14 +36,21 @@ p {
 /* Navigation */
 
 #navigation {
-    background-color: #d92027;
+    background-color: #fa813b;
+    font-size: 3rem;
+}
+
+.sub-title 
+{
+    font-size: 1.2rem;
+    color: rgb(230, 218, 218);
 }
 
 
 /* Products */
 .product-header {
     padding-bottom: 2%;
-    color: #d92027;
+    color: #fa813b;
 }
 
 #products {
@@ -59,16 +73,6 @@ p {
     margin-top: 10px;
 }
 
-/* USPs */
-
-.usp-header {
-    padding: 1%;
-    color: #d92027;
-}
-
-#usps img {
-    margin-bottom: 20px;
-}
 
 /* Brands */
 #brands {
@@ -82,7 +86,7 @@ p {
 }
 
 .brand-header {
-    color: #d92027;
+    color:  #fa813b;
 }
 
 .main {
@@ -103,30 +107,16 @@ p {
     margin: 0 20px;
 }
 
-/* Contact */
 
-.contact-header {
-    color: #d92027;
-}
-
-#contact {
-    padding-top: 56px;
-}
-
-.contact-card {
-    background-color: #eae3e3a6;
-}
-
-.card-title {
-    margin: .75rem;
-}
-
-.card-body {
-    padding: 0.25rem  1.25rem 0.5rem;
+/* Call to Action */
+#call-to-action
+{
+    background-color: #fa813b;
+    font-size: 2rem;
+    padding: 5% 7%; 
 }
 
 /* Footer */
-
 #footer {
     background-color: #232931; 
     color: #fff;
